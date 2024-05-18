@@ -9,3 +9,18 @@ function processArray(numbers){
     })
 }
 
+
+function formatArrayStrings(stringArr, numberArr = processArray(num)) {
+    return stringArr.map((str, index) => {
+        let num = numberArr[index];
+        return num % 2 === 0 ? str.toUpperCase() : str.toLowerCase();
+    });
+}
+strArr = ["John", "Amma"]
+numArray = [1,2]
+
+console.log(formatArrayStrings(strArr,numArray))
+
+
+
+//module.exports = {processArray, formatArrrayStings}
