@@ -24,8 +24,3 @@ Mobile App Development JavaScript Assignment
 - **Function:** `createUserProfiles`
 - **Description:** Takes an array of original names and an array of modified names, and returns an array of user profile objects with original names, modified names, and auto-incremented IDs starting from 1.
 
-## Task 4: README
-
-- **File:** `README.md`
-- **Description:** Provides a brief explanation of each task and the corresponding functions.
-
